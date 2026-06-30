@@ -1,33 +1,53 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Home from './pages/Home/Home'
+import Navbar from './components/Navbar/Navbar'
+import { Routes, Route } from 'react-router-dom'
+import About from './pages/About/About'
+import Footer from './components/Footer/Footer'
+import Rooms from './pages/Rooms/Rooms'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  useEffect(() => {
+    const navbar = document.getElementById("navbar");
+    const handleScroll = () => navbar.classList.toggle("scrolled", window.scrollY > 50);
+    window.addEventListener("scroll", handleScroll);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) entry.target.classList.add("active");
+        });
+      },
+      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+    );
+
+    document
+      .querySelectorAll(".reveal, .reveal-left, .reveal-right, .reveal-scale")
+      .forEach((el) => observer.observe(el));
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      observer.disconnect();
+    };
+  }, []);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar />
+
+      <Routes>
+
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/rooms' element={<Rooms />} />
+
+      </Routes>
+      <Footer />
+
     </>
   )
 }
