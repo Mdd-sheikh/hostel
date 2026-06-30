@@ -32,6 +32,8 @@ const Footer = () => {
             <li><Link to="/blog">Community Blog</Link></li>
             <li><Link to="/contact">Contact Us</Link></li>
             <li><Link to="/contact#faq">FAQs</Link></li>
+            <li><Link to="/sitemap#faq">SiteMap</Link></li>
+
           </ul>
         </div>
         <div className="footer-column">
