@@ -43,16 +43,15 @@ const Navbar = () => {
                 <div className="nav-container">
                     <Link to="/" className="logo">
                         <div className="logo-icon"><i className="fas fa-home"></i></div>
-                        Serene Stay
+                       Sealdah
                     </Link>
                     <ul className="nav-links">
                         <li><Link to="/" className="active">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/rooms">Rooms</Link></li>
                         <li><Link to="/facilities">Facilities</Link></li>
-                        <li><Link to="/safety">Safety</Link></li>
                         <li><Link to="/gallery">Gallery</Link></li>
-                        <li><Link to="/blog">Community</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                         <li><Link to="/contact" className="nav-cta">Book a Visit</Link></li>
                     </ul>
                     <button className="mobile-menu-btn" onClick={() => toggleMobileMenu()}>

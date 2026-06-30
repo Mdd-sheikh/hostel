@@ -66,7 +66,7 @@ const Rooms = () => {
               <div className="room-image">
                 <img
                   src={assests.single_bed}
-                  alt="Single Room"
+                  alt="Girls PG Room in Sealdah Kolkata"
                 />
                 <span className="room-badge">Most Popular</span>
               </div>
@@ -96,7 +96,7 @@ const Rooms = () => {
               <div className="room-image">
                 <img
                   src={assests.double_bed}
-                  alt="Double Room"
+                  alt="Girls PG Room in Sealdah Kolkata"
                 />
                 <span
                   className="room-badge"
@@ -130,7 +130,7 @@ const Rooms = () => {
               <div className="room-image">
                 <img
                   src={assests.triple_bed}
-                  alt="Triple Room"
+                  alt="Girls PG Room in Sealdah Kolkata"
                 />
               </div>
               <div className="room-content">

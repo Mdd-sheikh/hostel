@@ -8,6 +8,12 @@ import { Routes, Route } from 'react-router-dom'
 import About from './pages/About/About'
 import Footer from './components/Footer/Footer'
 import Rooms from './pages/Rooms/Rooms'
+import Contact from './pages/contact/Contact'
+
+import Facilities from './pages/facilities/Facilities'
+import Gallery from './pages/gallery/Gallery'
+
+
 
 
 function App() {
@@ -44,6 +50,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/rooms' element={<Rooms />} />
+        <Route path='/contact' element={<Contact/>} />
+        <Route path='/facilities' element={<Facilities/>} />
+        <Route path='/gallery' element={<Gallery/>}/>
 
       </Routes>
       <Footer />
