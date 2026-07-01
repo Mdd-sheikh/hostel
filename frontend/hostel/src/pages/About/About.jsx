@@ -140,7 +140,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="team-info">
-                                <h3>Mrs. Priya Sharma</h3>
+                                
                                 <p>Founder & Chief Warden</p>
                                 <p className="bio">15+ years of experience in student welfare. A mother figure to all 500+ residents. Believes every girl deserves a safe space to dream.</p>
                             </div>
@@ -156,8 +156,8 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="team-info">
-                                <h3>Dr. Anjali Gupta</h3>
-                                <p>Resident Counselor</p>
+                                
+                                <p>Care Taker</p>
                                 <p className="bio">Clinical psychologist specializing in young adult mental health. Available for one-on-one sessions every Tuesday and Thursday.</p>
                             </div>
                         </div>
@@ -171,8 +171,8 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="team-info">
-                                <h3>Sunita Devi</h3>
-                                <p>Head of Housekeeping</p>
+                                
+                                <p>Care Taker</p>
                                 <p className="bio">Ensures every corner sparkles. Her attention to detail and warm smile make Serene Stay feel like a five-star home.</p>
                             </div>
                         </div>
