@@ -156,7 +156,7 @@ const Contact = () => {
                                     </div>
                                     <div className="contact-method-text">
                                         <strong>Phone</strong>
-                                        <span>+91 98765 43210</span>
+                                        <span>+91 9831268634</span>
                                     </div>
                                 </div>
                                 <div className="contact-method">
@@ -171,7 +171,7 @@ const Contact = () => {
                                     </div>
                                     <div className="contact-method-text">
                                         <strong>Email</strong>
-                                        <span>info@serenestay.com</span>
+                                        <span>sealdahgirlspg@gmail.com</span>
                                     </div>
                                 </div>
                                 <div className="contact-method">
@@ -187,7 +187,7 @@ const Contact = () => {
                                     <div className="contact-method-text">
                                         <strong>Address</strong>
                                         <span>
-                                            123 Green Avenue, Near Metro Station, New Delhi - 110001
+                                            65A Pataldanga Street Kolkata - 700009 ( Near Surendranath College) kol-700009
                                         </span>
                                     </div>
                                 </div>
@@ -208,14 +208,14 @@ const Contact = () => {
                             </div>
                             <div className="contact-buttons">
                                 <a
-                                    href="https://wa.me/919876543210"
+                                    href="https://wa.me/919831268634"
                                     className="btn whatsapp-btn"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
                                     <i className="fab fa-whatsapp"></i>WhatsApp Us
                                 </a>
-                                <a href="tel:+919876543210" className="btn call-btn">
+                                <a href="tel:+919831268634" className="btn call-btn">
                                     <i className="fas fa-phone"></i>Call Now
                                 </a>
                             </div>
@@ -230,7 +230,7 @@ const Contact = () => {
                         <div className="map-container reveal-left">
                             <iframe
                                 title="Serene Stay location map"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0663809756!2d77.209021!3d28.613939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzUwLjIiTiA3N8KwMTInMzIuNSJF!5e0!3m2!1sen!2sin!4v1"
+                                src="https://www.google.com/maps?q=65A+Pataldanga+Street,+Kolkata+-+700009+(Near+Surendranath+College)&output=embed"
                                 allowFullScreen
                                 loading="lazy"
                             ></iframe>
@@ -245,19 +245,11 @@ const Contact = () => {
                                         <i className="fas fa-university"></i>
                                     </div>
                                     <div className="nearby-text">
-                                        <strong>Delhi University</strong>
-                                        <span>2.5 km away</span>
+                                        <strong>Surendranath College</strong>
+                                        <span>100 m away</span>
                                     </div>
                                 </li>
-                                <li>
-                                    <div className="nearby-icon">
-                                        <i className="fas fa-graduation-cap"></i>
-                                    </div>
-                                    <div className="nearby-text">
-                                        <strong>AIIMS</strong>
-                                        <span>3.0 km away</span>
-                                    </div>
-                                </li>
+                                
                                 <li>
                                     <div className="nearby-icon">
                                         <i className="fas fa-subway"></i>
